@@ -33,7 +33,8 @@ class ContactService {
         success: true,
         message: result.message || "Message sent successfully!",
       };
-    } catch (_) {
+    } catch {
+      // Error is intentionally not captured - we return a generic error message
       return {
         success: false,
         message: "Failed to send message. Please try again later.",
