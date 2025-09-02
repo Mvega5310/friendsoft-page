@@ -30,22 +30,22 @@ show_help() {
 # Función para construir la imagen
 build_image() {
     echo -e "${YELLOW}Construyendo imagen Docker...${NC}"
-    docker build -t mi-pagina-nextjs .
+    docker build -t friendsoft-page .
     echo -e "${GREEN}✓ Imagen construida exitosamente${NC}"
 }
 
 # Función para ejecutar el contenedor
 run_container() {
     echo -e "${YELLOW}Ejecutando contenedor...${NC}"
-    docker run -d --name mi-pagina-nextjs -p 3000:80 mi-pagina-nextjs
+    docker run -d --name friendsoft-page -p 3000:80 friendsoft-page
     echo -e "${GREEN}✓ Contenedor ejecutándose en http://localhost:3000${NC}"
 }
 
 # Función para detener el contenedor
 stop_container() {
     echo -e "${YELLOW}Deteniendo contenedor...${NC}"
-    docker stop mi-pagina-nextjs 2>/dev/null || true
-    docker rm mi-pagina-nextjs 2>/dev/null || true
+    docker stop friendsoft-page 2>/dev/null || true
+    docker rm friendsoft-page 2>/dev/null || true
     echo -e "${GREEN}✓ Contenedor detenido${NC}"
 }
 
@@ -58,15 +58,15 @@ restart_container() {
 # Función para ver logs
 show_logs() {
     echo -e "${YELLOW}Mostrando logs del contenedor...${NC}"
-    docker logs -f mi-pagina-nextjs
+    docker logs -f friendsoft-page
 }
 
 # Función para limpiar
 clean_docker() {
     echo -e "${YELLOW}Limpiando contenedores e imágenes...${NC}"
-    docker stop mi-pagina-nextjs 2>/dev/null || true
-    docker rm mi-pagina-nextjs 2>/dev/null || true
-    docker rmi mi-pagina-nextjs 2>/dev/null || true
+    docker stop friendsoft-page 2>/dev/null || true
+    docker rm friendsoft-page 2>/dev/null || true
+    docker rmi friendsoft-page 2>/dev/null || true
     docker system prune -f
     echo -e "${GREEN}✓ Limpieza completada${NC}"
 }

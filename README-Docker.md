@@ -26,14 +26,14 @@ docker-compose down
 
 ```bash
 # Construir la imagen
-docker build -t mi-pagina-nextjs .
+docker build -t friendsoft-page .
 
 # Ejecutar el contenedor
-docker run -d --name mi-pagina-nextjs -p 3000:80 mi-pagina-nextjs
+docker run -d --name friendsoft-page -p 3000:80 friendsoft-page
 
 # Detener el contenedor
-docker stop mi-pagina-nextjs
-docker rm mi-pagina-nextjs
+docker stop friendsoft-page
+docker rm friendsoft-page
 ```
 
 ### Opción 3: Usando el script de ayuda (Linux/Mac)
@@ -93,23 +93,23 @@ docker-compose up -d --build
 ### Producción
 ```bash
 # Construir para producción
-docker build -t mi-pagina-nextjs:latest .
+docker build -t friendsoft-page:latest .
 
 # Ejecutar en producción
 docker run -d \
-  --name mi-pagina-nextjs \
+  --name friendsoft-page \
   --restart unless-stopped \
   -p 3000:80 \
-  mi-pagina-nextjs:latest
+  friendsoft-page:latest
 ```
 
 ### Mantenimiento
 ```bash
 # Ver logs del contenedor
-docker logs -f mi-pagina-nextjs
+docker logs -f friendsoft-page
 
 # Acceder al contenedor
-docker exec -it mi-pagina-nextjs sh
+docker exec -it friendsoft-page sh
 
 # Limpiar imágenes no utilizadas
 docker system prune -f
@@ -143,7 +143,7 @@ ports:
 docker builder prune
 
 # Construir sin cache
-docker build --no-cache -t mi-pagina-nextjs .
+docker build --no-cache -t friendsoft-page .
 ```
 
 ### Problemas de Permisos (Linux)

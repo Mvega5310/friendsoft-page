@@ -1,13 +1,13 @@
 version: '3.8'
 
 services:
-  mi-pagina-nextjs:
+  friendsoft-page:
     build:
       context: .
       dockerfile: Dockerfile
     ports:
       - "3000:80"
-    container_name: mi-pagina-nextjs
+    container_name: friendsoft-page
     restart: unless-stopped
     environment:
       - NODE_ENV=production
