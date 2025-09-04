@@ -8,9 +8,9 @@ const TechnologyGrowthSection = () => {
   const { t } = useTranslation()
 
   const progressBars = [
-    { label: 'Software', percentage: 90 },
-    { label: 'Development', percentage: 85 },
-    { label: 'Technology', percentage: 75 }
+    { label: t('home.section6.software'), percentage: 90 },
+    { label: t('home.section6.development'), percentage: 85 },
+    { label: t('home.section6.technology'), percentage: 75 }
   ]
 
   return (

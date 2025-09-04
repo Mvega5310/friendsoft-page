@@ -335,3 +335,11 @@ h6 { font-size: 1rem; }
     outline-color: var(--focus-color);
   }
 }
+
+/* Custom styles for Industries Section titles at 1024px breakpoint */
+@media (min-width: 1024px) {
+  .lg\:text-lg {
+    font-size: 0.65rem;
+    line-height: 0.72rem;
+  }
+}

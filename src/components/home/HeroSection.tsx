@@ -129,8 +129,13 @@ const HeroSection = () => {
         >
           <div className="">
             <motion.h1
-              className="!text-2xl max-w-96 sm:!text-3xl md:!text-4xl lg:!text-5xl xl:!text-6xl font-bold mb-4 sm:mb-6 leading-tight text-white"
+              className="!text-xl max-w-80 sm:!text-2xl sm:max-w-96 md:!text-3xl md:max-w-lg lg:!text-4xl lg:max-w-xl xl:!text-5xl xl:max-w-2xl font-bold mb-4 sm:mb-6 leading-tight text-white"
               variants={heroVariants.title}
+              style={{
+                lineHeight: '1.2',
+                wordSpacing: '0.1em',
+                whiteSpace: 'pre-line'
+              }}
             >
               {heroSlides[currentSlide].title}
             </motion.h1>

@@ -7,6 +7,7 @@ import Image from 'next/image'
 interface IndustryCard {
   icon: string
   title: string
+  subtitle: string
 }
 
 const IndustriesSection: React.FC = () => {
@@ -15,23 +16,28 @@ const IndustriesSection: React.FC = () => {
   const industries: IndustryCard[] = [
     {
       icon: '/icons/home/section8.icon1.svg',
-      title: t('home.section8.industries.banking'),
+      title: t('home.section8.industries.banking.title'),
+      subtitle: t('home.section8.industries.banking.subtitle'),
     },
     {
       icon: '/icons/home/section8.icon2.svg',
-      title: t('home.section8.industries.healthcare'),
+      title: t('home.section8.industries.healthcare.title'),
+      subtitle: t('home.section8.industries.healthcare.subtitle'),
     },
     {
       icon: '/icons/home/section8.icon3.svg',
-      title: t('home.section8.industries.education'),
+      title: t('home.section8.industries.education.title'),
+      subtitle: t('home.section8.industries.education.subtitle'),
     },
     {
       icon: '/icons/home/section8.icon4.svg',
-      title: t('home.section8.industries.manufacturing'),
+      title: t('home.section8.industries.manufacturing.title'),
+      subtitle: t('home.section8.industries.manufacturing.subtitle'),
     },
     {
       icon: '/icons/home/section8.icon5.svg',
-      title: t('home.section8.industries.markets'),
+      title: t('home.section8.industries.markets.title'),
+      subtitle: t('home.section8.industries.markets.subtitle'),
     }
   ]
 
@@ -66,10 +72,15 @@ const IndustriesSection: React.FC = () => {
                 />
               </div>
 
-              {/* Title */}
-              <h3 className="text-black text-lg font-semibold flex-grow">
-                {industry.title}
-              </h3>
+              {/* Title and Subtitle */}
+              <div className="flex-grow">
+                <h3 className="text-black text-lg font-semibold mb-1">
+                  {industry.title}
+                </h3>
+                <p className="text-gray-600 text-sm">
+                  {industry.subtitle}
+                </p>
+              </div>
             </div>
           ))}
         </div>
@@ -80,23 +91,28 @@ const IndustriesSection: React.FC = () => {
             {industries.map((industry, index) => (
               <div
                 key={index}
-                className="bg-white w-32 h-32 md:w-36 md:h-36 lg:w-40 lg:h-40 xl:w-44 xl:h-44 rounded-lg flex flex-col items-center justify-center text-center p-3 md:p-4 lg:p-6 transition-transform duration-300 hover:scale-105 hover:shadow-lg"
+                className="bg-white w-32 h-40 md:w-40 md:h-40 lg:w-40 lg:h-40 xl:w-50 xl:h-48 rounded-lg flex flex-col items-center justify-center text-center p-3 md:p-3 lg:p-3 transition-transform duration-300 hover:scale-105 hover:shadow-lg"
               >
                 {/* Icon */}
-                <div className="mb-2 md:mb-3 lg:mb-4">
+                <div className="mb-2 md:mb-3 lg:mb-2">
                   <Image
                     src={industry.icon}
                     alt={industry.title}
-                    className="w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 xl:w-24 xl:h-24"
-                    width={96}
-                    height={96}
+                    className="w-10 h-10 md:w-14 md:h-14 lg:w-16 lg:h-16 xl:w-20 xl:h-20"
+                    width={80}
+                    height={80}
                   />
                 </div>
 
-                {/* Title */}
-                <h3 className="text-black text-sm md:text-base lg:text-lg xl:text-xl font-semibold">
-                  {industry.title}
-                </h3>
+                {/* Title and Subtitle */}
+                <div className="text-center">
+                  <h3 className="text-black text-sm md:text-base lg:text-lg xl:text-xl font-semibold leading-tight mb-1">
+                    {industry.title}
+                  </h3>
+                  <p className="text-gray-600 text-xs md:text-sm lg:text-sm xl:text-base leading-tight">
+                    {industry.subtitle}
+                  </p>
+                </div>
               </div>
             ))}
           </div>

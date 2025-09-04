@@ -9,76 +9,77 @@
     "title": "Bienvenido a Friendsoft",
     "subtitle": "Soluciones tecnológicas a tu alcance",
     "hero": {
-      "title": "Soluciones innovadoras para tus negocios",
-      "subtitle": "Innovative solutions for your businesses",
-      "button": "Descubrir más"
+      "title": "Equipos de Desarrollo\nExpertos para Tus\nProyectos",
+      "subtitle": "Equipos de Desarrollo Dedicados, Entregados como Servicio",
+      "button": "Comienza a Construir"
     },
     "section2": {
       "subtitle": "Plataforma tecnológica",
-      "title": "Notech entregando soluciones TI con completa confianza",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. quis nostrud exercitation ullamco laboris.",
+      "title": "FriendSoft: Tu Socio de Confianza para Servicios de Equipos de Desarrollo",
+      "description": "Accede a talento de desarrollo de software de clase mundial sin los costos de contratación, capacitación y gestión de equipos a tiempo completo. FriendSoft proporciona equipos de desarrollo dedicados que se integran sin problemas con tu organización, entregando soluciones de software de alta calidad con total transparencia y confianza.",
       "cards": {
         "card1": {
-          "title": "Solución perfecta que demanda cada negocio",
+          "title": "Equipos Escalables para Cualquier Tamaño de Proyecto",
           "description": "Soluciones tecnológicas innovadoras adaptadas para satisfacer las necesidades específicas de tu negocio e impulsar el crecimiento."
         },
         "card2": {
-          "title": "Ayudando a negocios alrededor del mundo",
+          "title": "Talento Global, Experiencia Local en Cartagena",
           "description": "Alcance global con experiencia local, apoyando empresas en diferentes industrias y mercados."
         },
         "card3": {
-          "title": "Qué está frenando la solución TI.",
+          "title": "Integración y Soporte de Equipos sin Fricciones",
           "description": "Identificando y superando las barreras tecnológicas que impiden que tu negocio alcance su máximo potencial."
         }
       }
     },
     "section2_1": {
       "subtitle": "Introducción de la empresa",
-      "title": "Notech es tu empresa de confianza de servicios TI",
+      "title": "FriendSoft: Tu Socio en Equipos de Desarrollo",
       "description": "Proin est lacus, sagittis lobortis iaculis eget.",
-      "content": "Hay muchas variaciones de pasajes de lorem libre mercado disponible, pero la mayoría han sufrido alteración en alguna forma, por humor inyectado, o palabras aleatorias.",
+      "content": "FriendSoft se especializa en proveer equipos dedicados de desarrollo de software como servicio. Ya sea que necesites un equipo pequeño para un proyecto específico o un escuadrón completo de desarrollo para trabajo continuo, entregamos desarrolladores, diseñadores y project managers experimentados que se convierten en una extensión de tu empresa. Con sede en Cartagena, Colombia, combinamos experiencia local con mejores prácticas globales para asegurar el éxito de tus proyectos.",
       "viewMore": "Ver más",
-      "imageOverlay": "Friendsoft is providing the best solution by our experts",
+      "imageOverlay": "Tu Éxito, Impulsado por Nuestros Equipos Expertos",
       "features": {
-        "feature1": "Nsectetur cing elit.",
-        "feature2": "You're going passage.",
-        "feature3": "Suspe se suscipit leo.",
-        "feature4": "Lorem ipsum non tend."
+        "feature1": "Más de 100 Despliegues Exitosos de Equipos",
+        "feature2": "Paquetes y Precios Flexibles de Equipos",
+        "feature3": "Armado y Despliegue Rápido de Equipos",
+        "feature4": "Equipos Dedicados Comprometidos con Tu Éxito"
       },
       "profile": {
         "name": "Gerson Almeida",
-        "title": "Founder of friendsoft company"
+        "title": "CEO & Fundador de FriendSoft"
       }
     },
     "section3": {
-      "subtitle": "Qué ofrecemos",
-      "title": "Servicios que proporcionamos a nuestros clientes",
+      "subtitle": "Nuestros Servicios de Equipos",
+      "title": "Equipos de Desarrollo Completos, Entregados como Servicio",
       "services": {
         "service1": {
           "title": "Desarrollo de productos",
-          "description": "Lorem dolor sit amet do.",
+          "description": "Equipos full-stack con experiencia en tecnologías modernas y metodologías ágiles.",
           "button": "Saber más"
         },
         "service2": {
           "title": "Diseño UX/UI",
-          "description": "Lorem dolor sit amet do.",
+          "description": "Equipos de diseño dedicados creando experiencias intuitivas e interfaces visuales atractivas.",
           "button": "Saber más"
         },
         "service3": {
           "title": "Marketing digital",
-          "description": "Lorem dolor sit amet do.",
+          "description": "Equipos de marketing aplicando estrategias basadas en datos para impulsar tu presencia digital y conversiones.",
           "button": "Saber más"
         },
         "service4": {
           "title": "Gestión de contenido",
-          "description": "Lorem dolor sit amet do.",
+          "description": "Equipos de contenidos gestionando y optimizando tus activos digitales en todas las plataformas.",
           "button": "Saber más"
         }
       }
     },
     "section4": {
       "subtitle": "Beneficios de la empresa Notech",
-      "title": "¿Por qué deberías elegir nuestra empresa notech?",
+      "title": "¿Por Qué Elegir FriendSoft para tus Necesidades de Equipos de Desarrollo?",
+      "staticTitle": "Beneficios de elegir FriendSoft",
       "staticDescription": "Hay muchas variaciones de pasajes de Lorem Ipsum disponibles, pero la mayoría han sufrido alteración en alguna forma, simplemente texto libre por humor inyectado, o aleatorizado.",
       "staticPoints": [
         "Hacer de este primer generador verdadero",
@@ -92,7 +93,7 @@
       },
       "content": {
         "mission": {
-          "description": "Hay muchas variaciones de pasajes de Lorem Ipsum disponibles, pero la mayoría han sufrido alteración en alguna forma, por humor inyectado, o palabras aleatorias que no se ven ni siquiera ligeramente creíbles.",
+          "description": "Nuestra misión es eliminar las barreras para acceder a talento de desarrollo de primer nivel, proporcionando equipos dedicados que se integran perfectamente con tu organización, permitiéndote enfocarte en tu negocio mientras nosotros manejamos la ejecución técnica.",
           "points": [
             "Hacer de este primer generador verdadero",
             "Lorem Ipsum no es simplemente",
@@ -100,7 +101,7 @@
           ]
         },
         "vision": {
-          "description": "Nuestra visión es ser líderes en innovación tecnológica, proporcionando soluciones que transformen la manera en que las empresas operan y crecen en el mundo digital.",
+          "description": "Ser el proveedor líder de equipos de desarrollo como servicio en Latinoamérica, reconocido por nuestra capacidad de entregar talento de clase mundial que impulse la innovación y el crecimiento empresarial.",
           "points": [
             "Innovación constante en tecnología",
             "Excelencia en servicio al cliente",
@@ -108,7 +109,7 @@
           ]
         },
         "history": {
-          "description": "Fundada con la misión de democratizar la tecnología, hemos crecido desde una startup hasta convertirnos en un referente en el sector tecnológico.",
+          "description": "Fundada en Cartagena, Colombia, FriendSoft identificó la creciente necesidad de recursos de desarrollo flexibles y escalables. Hemos evolucionado de ser una empresa tradicional de servicios de TI a un proveedor especializado en equipos de desarrollo como servicio, ayudando a empresas de todos los tamaños a acceder al talento que necesitan, cuando lo necesitan.",
           "points": [
             "Más de 10 años de experiencia",
             "Cientos de proyectos exitosos",
@@ -117,51 +118,69 @@
         }
       },
       "image": {
-        "title": "Siempre entregando soluciones de calidad",
-        "subtitle": "Lorem Ipsum son muchas variaciones de pase.",
-        "button": "Descubrir más"
+        "title": "Entregando Consistentemente Equipos de Alto Rendimiento",
+        "subtitle": "La calidad no solo se trata de código, sino de las personas que lo escriben. Nuestros equipos son cuidadosamente seleccionados, entrenados continuamente y totalmente comprometidos con el éxito de tu proyecto. Mantenemos estándares rigurosos tanto en excelencia técnica como en desempeño de equipo, asegurando resultados consistentes y de alta calidad.",
+        "button": "Comienza Hoy"
       }
     },
     "section5": {
       "subtitle": "Trabajo completado recientemente",
-      "title": "Nuestra lista de proyectos completados recientemente",
-      "description": "Cada uno de nuestros proyectos refleja la aplicación práctica de nuestra misión: impulsar la transformación digital de las empresas mediante soluciones web, aplicaciones inteligentes y automatización empresarial con herramientas de inteligencia artificial.",
+      "title": "Proyectos Entregados por Nuestros Equipos",
+      "description": "Descubre cómo nuestros equipos dedicados han entregado proyectos exitosos en diversas industrias. Cada proyecto representa una alianza colaborativa donde nuestros equipos se convirtieron en parte esencial del éxito de nuestros clientes.",
       "page": "Pagina",
       "of": "de"
     },
     "section6": {
       "subtitle": "Crecimiento tecnológico",
-      "title": "Somos los expertos destacados en negocios tecnológicos"
+      "title": "Somos los expertos destacados en negocios tecnológicos",
+      "software": "Gestión de Equipos",
+      "development": "Desarrollo Ágil",
+      "technology": "Tecnología Moderna"
     },
     "section8": {
       "subtitle": "Industrias que atendemos",
       "title": "Servicios de TI personalizados para tu industria",
       "industries": {
-        "banking": "Banca",
-        "healthcare": "Salud",
-        "education": "Educación",
-        "manufacturing": "Manufactura",
-        "markets": "Mercados"
+        "banking": {
+          "title": "Banca",
+          "subtitle": "Equipos Fintech de Desarrollo"
+        },
+        "healthcare": {
+          "title": "Salud",
+          "subtitle": "Equipos HealthTech de Desarrollo"
+        },
+        "education": {
+          "title": "Educación",
+          "subtitle": "Equipos EdTech de Desarrollo"
+        },
+        "manufacturing": {
+          "title": "Manufactura",
+          "subtitle": "Equipos de Software Industrial"
+        },
+        "markets": {
+          "title": "Mercados",
+          "subtitle": "Equipos de Desarrollo para E-commerce"
+        }
       }
     },
     "section9": {
       "subtitle": "Comentarios de nuestros clientes",
-      "title": "Lo que están diciendo",
+      "title": "Lo que Nuestros Clientes Dicen Sobre Nuestros Equipos",
       "testimonials": {
         "testimonial1": {
-          "comment": "Lorem ipsum es simplemente texto ficticio de la industria de la impresión y la composición tipográfica. Lorem Ipsum ha sido el texto ficticio estándar de la industria desde el siglo XVI.",
-          "name": "Jessica Brown",
-          "position": "Cliente"
+          "comment": "El equipo de desarrollo de FriendSoft se integró perfectamente con nuestro personal existente. Comprendieron rápidamente nuestros requerimientos de negocio y entregaron una solución de alta calidad a tiempo. Tener un equipo dedicado como servicio fue exactamente lo que necesitábamos.",
+          "name": "Nick Caruso",
+          "position": "CTO, KnowledgeNet.ai"
         },
         "testimonial2": {
-          "comment": "Lorem ipsum es simplemente texto ficticio de la industria de la impresión y la composición tipográfica. Lorem Ipsum ha sido el texto ficticio estándar de la industria desde el siglo XVI.",
-          "name": "Boby Robson",
-          "position": "Stakeholder"
+          "comment": "Gracias a FriendSoft pudimos escalar nuestro proyecto sin las complicaciones de contratación y capacitación interna. Su equipo se adaptó de inmediato a nuestros procesos y metodologías, garantizando resultados consistentes y un flujo de trabajo ágil.",
+          "name": "Medhi Teranchi",
+          "position": "CEO, Iyotee Inc"
         },
         "testimonial3": {
-          "comment": "Lorem ipsum es simplemente texto ficticio de la industria de la impresión y la composición tipográfica. Lorem Ipsum ha sido el texto ficticio estándar de la industria desde el siglo XVI.",
-          "name": "Joa Hart",
-          "position": "Cliente"
+          "comment": "La transparencia y comunicación constante de FriendSoft marcaron la diferencia. Nos mantuvieron informados en cada etapa del desarrollo y se aseguraron de que cada entrega cumpliera con nuestros estándares de calidad. Realmente se sienten como una extensión de nuestra propia empresa.",
+          "name": "Rachid Sijelmassi",
+          "position": "COO, Iyotee Inc"
         }
       }
     }
@@ -205,8 +224,8 @@
     "viewProject": "Ver nuestro proyecto",
     "projectDetails": {
       "1": {
-        "title": "Deployment service",
-        "category": "Technology",
+        "title": "Nuestro equipo construyó una plataforma completa de entrenamiento en VR en 6 meses",
+        "category": "Plataforma de VR Inmersiva",
         "color": "bg-orange-100 text-orange-600",
         "client": "TechCorp Solutions",
         "services": ["Cloud Infrastructure", "DevOps", "Automation"],
@@ -221,8 +240,8 @@
         "results": "Reducción del 75% en tiempo de despliegue, 99.9% de uptime, y eliminación completa de errores manuales en producción."
       },
       "2": {
-        "title": "Technological Solution Platform",
-        "category": "Ideas",
+        "title": "Equipo full-stack entregó un marketplace escalable",
+        "category": "Solución E-commerce",
         "color": "bg-green-100 text-green-600",
         "client": "InnovateCorp",
         "services": [
@@ -241,8 +260,8 @@
         "results": "Incremento del 60% en la eficiencia de procesos de innovación y reducción del 40% en tiempo de desarrollo de nuevos productos."
       },
       "3": {
-        "title": "Platform Integration Suite",
-        "category": "Soluciones",
+        "title": "Equipo de desarrollo integró múltiples dispositivos IoT con analítica en tiempo real",
+        "category": "Dashboard IoT",
         "color": "bg-purple-100 text-purple-600",
         "client": "Enterprise Systems Ltd",
         "services": ["API Development", "System Integration", "Data Migration"],
@@ -257,8 +276,8 @@
         "results": "Integración exitosa de 15+ sistemas empresariales, reducción del 80% en errores de sincronización de datos."
       },
       "4": {
-        "title": "Cybersecurity Framework",
-        "category": "Tecnología",
+        "title": "Nuestro equipo implementó soluciones de seguridad a nivel empresarial",
+        "category": "Plataforma de Seguridad",
         "color": "bg-orange-100 text-orange-600",
         "client": "SecureNet Corp",
         "services": [
