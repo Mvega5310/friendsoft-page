@@ -91,7 +91,7 @@ const IndustriesSection: React.FC = () => {
             {industries.map((industry, index) => (
               <div
                 key={index}
-                className="bg-white w-32 h-40 md:w-40 md:h-40 lg:w-40 lg:h-40 xl:w-50 xl:h-48 rounded-lg flex flex-col items-center justify-center text-center p-3 md:p-3 lg:p-3 transition-transform duration-300 hover:scale-105 hover:shadow-lg"
+                className="bg-white w-36 h-44 md:w-44 md:h-48 lg:w-44 lg:h-48 xl:w-52 xl:h-52 rounded-lg flex flex-col items-center justify-center text-center p-4 md:p-4 lg:p-4 transition-transform duration-300 hover:scale-105 hover:shadow-lg"
               >
                 {/* Icon */}
                 <div className="mb-2 md:mb-3 lg:mb-2">
