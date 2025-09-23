@@ -220,7 +220,7 @@ const ProjectsSection = () => {
 
           {/* Title and Description */}
           <div className="max-w-4xl lg:max-w-none">
-            <h2 className="text-2xl sm:!text-3xl md:!text-4xl lg:!text-5xl font-bold text-gray-900 leading-tight mb-4 sm:!mb-6">
+            <h2 className="text-xl sm:!text-1xl md:!text-2xl lg:!text-3xl font-bold text-gray-900 leading-tight mb-4 sm:!mb-6">
               {t('home.section5.title')}
             </h2>
             <p className="text-gray-600 text-sm sm:text-base lg:text-lg leading-relaxed max-w-3xl mx-auto lg:mx-0">

@@ -62,7 +62,7 @@ const AboutSection = () => {
             <div className="space-y-6 lg:space-y-8">
               <div>
                 <h3 className="text-lg md:text-xl lg:text-2xl font-bold text-gray-900 mb-4 lg:mb-6">
-                  Beneficios adicionales
+                  {t("home.section4.staticTitle")}
                 </h3>
                 <p className="text-sm md:text-base lg:text-lg text-gray-600 leading-relaxed mb-6 lg:mb-8">
                   {t("home.section4.staticDescription")}
@@ -105,15 +105,15 @@ const AboutSection = () => {
               {/* Content Overlay - Responsive */}
               <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-4 sm:px-6 lg:px-8">
                 <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold mb-2 sm:mb-3 lg:mb-4 leading-tight max-w-4xl">
-                  Always delivering quality solutions
+                  {t("home.section4.image.title")}
                 </h3>
                 <p className="text-sm sm:text-base md:text-lg lg:text-xl mb-4 sm:mb-6 lg:mb-8 opacity-90 max-w-2xl leading-relaxed">
-                  Lorem ipsum is are many variations of pass.
+                  {t("home.section4.image.subtitle")}
                 </p>
                 <button
                   className="bg-gray-900 hover:bg-black text-white px-4 sm:px-6 lg:px-8 py-2 sm:py-3 lg:py-4 font-semibold text-sm sm:text-base lg:text-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 active:scale-95 focus:outline-none focus:ring-4 focus:ring-white/50"
                 >
-                  Discover more
+                  {t("home.section4.image.button")}
                 </button>
               </div>
             </div>

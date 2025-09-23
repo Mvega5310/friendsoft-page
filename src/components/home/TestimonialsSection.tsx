@@ -79,7 +79,7 @@ const TestimonialsSection: React.FC = () => {
               initial="hidden"
               animate={cardsInView ? "visible" : "hidden"}
               variants={staggerContainer}
-              className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 md:gap-6 lg:gap-8"
+              className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-10 md:gap-10 justify-items-center"
             >
               {testimonials.map((testimonial, index) => (
                 <motion.div
@@ -89,7 +89,7 @@ const TestimonialsSection: React.FC = () => {
                     scale: 1.05,
                     transition: { duration: 0.3 }
                   }}
-                  className="bg-white shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl"
+                  className="bg-white shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl w-full max-w-sm mx-auto"
                 >
                   {/* Upper section with quote icon and comment - F7F7F9 background */}
                   <div className="p-3 sm:p-4 md:p-6 lg:p-8 bg-white">

@@ -132,9 +132,6 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-}
-
-@theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
@@ -276,9 +273,9 @@ p, li, td, th {
   line-height: 1.6;
 }
 
-/* PRODUCE ERROR */
-/* Better spacing for touch targets */
-/* @media (pointer: coarse) {
+/* Better spacing for touch targets - commented out to avoid conflicts */
+/* 
+@media (pointer: coarse) {
   button,
   a,
   input,
@@ -287,7 +284,8 @@ p, li, td, th {
     min-height: 44px;
     min-width: 44px;
   }
-} */
+}
+*/
 
 /* Error states */
 .error {
@@ -333,5 +331,13 @@ h6 { font-size: 1rem; }
   
   .focus-visible:focus-visible {
     outline-color: var(--focus-color);
+  }
+}
+
+/* Custom styles for Industries Section titles at 1024px breakpoint */
+@media (min-width: 1024px) {
+  .lg\:text-lg {
+    font-size: 0.65rem;
+    line-height: 0.72rem;
   }
 }

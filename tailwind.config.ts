@@ -9,6 +9,22 @@ const config: Config = {
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+  safelist: [
+    // Project category colors - ensure these classes are not purged
+    'bg-orange-100', 'text-orange-600',
+    'bg-green-100', 'text-green-600',
+    'bg-purple-100', 'text-purple-600',
+    'bg-red-100', 'text-red-600',
+    'bg-indigo-100', 'text-indigo-600',
+    'bg-pink-100', 'text-pink-600',
+    'bg-yellow-100', 'text-yellow-600',
+    'bg-teal-100', 'text-teal-600',
+    'bg-cyan-100', 'text-cyan-600',
+    'bg-emerald-100', 'text-emerald-600',
+    'bg-rose-100', 'text-rose-600',
+    'bg-blue-100', 'text-blue-600',
+    'bg-gray-100', 'text-gray-600',
+  ],
   theme: {
     extend: {
       colors: {
